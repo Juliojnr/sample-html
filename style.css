@@ -1,0 +1,133 @@
+     
+li {
+    display: inline;
+}
+
+a {    
+    text-decoration: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.social {
+    width: 30px;
+}
+
+.social1 {
+    width: 50px;
+}
+
+.photo {
+    padding: 0px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#titulo {
+    background-color: rgb(231, 231, 231);
+    color: rgb(63, 125, 180);
+    padding: 10px;
+    margin: 50px;
+}
+
+.texto{
+    width: 600px;
+    display: inline;
+}
+
+.texto:hover {
+    background-color: #ff0000;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    
+}
+
+.card-titulo {
+    margin: 35px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cards {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 1px;
+}
+
+.card {
+    margin: 1rem;
+}
+
+.nav-flex {
+    align-items: center;
+    position: absolute;
+    font-size: 32px;
+    top: 50px;
+}
+
+.nav-button {
+    margin: 60px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+}
+
+hr {
+    display: none;
+}
+
+button{
+    color: #0505fe;
+    background: transparent;
+    border: solid 1px #0505fe;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0505fe;
+    color: white;
+    transition: 1s;
+}
+
+.container-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.apresentacao {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+
